@@ -1,8 +1,9 @@
 {
-  "name": "express-middleware-cache",
-  "version": "0.1.0",
+  "name": "express-middleware-caching",
+  "version": "1.0.0",
   "main": "cache.js",
   "author": "Jeroen Hammann",
+  "description": "A caching system for Express that saves a JSON response on disk and checks for expiration.",
   "dependencies": {
     "del": "^4.1.1",
     "spark-md5": "^3.0.0",
